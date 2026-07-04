@@ -28,3 +28,6 @@ para ello en la consola web de Blynk, entramos a Template y luego a "Eventos".
 Se agrego un nuevo evento con el nombre de código: alerta_intruso.
 Se configuro lo configuro como tipo de evento Critical (Crítico) y activa las casillas de (Enviar notificación a la aplicación móvil).
 
+<img width="1600" height="1200" alt="WhatsApp Image 2026-07-04 at 15 19 10" src="https://github.com/user-attachments/assets/fd27af16-b7a9-46c3-9f9c-0523292881d2" />
+
+
