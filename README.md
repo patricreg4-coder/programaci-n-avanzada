@@ -1,8 +1,8 @@
 # programaci-n-avanzada
-Logica del sistema de reserva
-Los tres escenarios posibles:
+Logica del sistema de reserva<br>
+Los tres escenarios posibles:<br>
 
-Totalmente Libre: autos + reservasActivas < capacidadMax. El LED verde se enciende, la pantalla LCD dice "Hay lugar!" y cualquier auto que se pare frente al sensor ultrasónico de entrada hará que la barrera se abra.
+Totalmente Libre: El LED verde se enciende, la pantalla LCD dice "Hay lugar!" y cualquier auto que se pare frente al sensor ultrasónico de entrada hará que la barrera se abra.
 Prioridad de Reserva: Si la capacidad es de 3 autos, hay 2 autos estacionados y 1 persona reservó desde su casa o en el camino , la pantalla física mostrará "Disponibles: 0" y "Completo/Reserv.".
 Bloqueo por Reservas: Si la capacidad máxima es 3, hay 2 autos físicos y 1 reserva activa. Aunque físicamente veas un lugar vacío, el sistema lo considera lleno. Si un auto común se detiene en la entrada, el ultrasónico lo detecta pero el código evalúa la condición y no le abre la barrera, mostrando en la LCD "SOLO RESERVAS".
 
@@ -15,6 +15,8 @@ El usuario presiona "Reservar" en la app.
 Las plazas disponibles disminuyen en 1 (el lugar queda guardado).
 Se genera un "Token o Permiso de Entrada" (un botón especial en la app ).
 Cuando el usuario llega físicamente al estacionamiento, presiona un botón en su app ("Abrir mi Reserva") que valida su entrada, levanta la barrera y cambia el estado de "Reservado" a "Ocupado".
+
+
 <img width="670" height="1218" alt="WhatsApp Image 2026-07-04 at 10 58 26" src="https://github.com/user-attachments/assets/8c093558-59ef-481a-883d-c8df362a6ec7" />
 
 
