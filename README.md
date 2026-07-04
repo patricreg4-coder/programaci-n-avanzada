@@ -1,5 +1,5 @@
-# programaci-n-avanzada
-Proyecto playa de estacionamiento automático con IOT
+# Proyecto playa de estacionamiento automático con IOT
+
 Logica del sistema de reserva<br>
 Los tres escenarios posibles:<br>
 
